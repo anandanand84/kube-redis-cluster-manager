@@ -1,0 +1,23 @@
+{
+  "name": "kube-redis-cluster-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/kube-redis-cluster-manager.git"
+  },
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandanand84/kube-redis-cluster-manager/issues"
+  },
+  "homepage": "https://github.com/anandanand84/kube-redis-cluster-manager#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "k8s": "^0.4.9"
+  }
+}
