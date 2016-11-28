@@ -24,7 +24,7 @@ kubeapi.watch('watch/namespaces/default/endpoints/redis').subscribe(data=> {
                 let result = execSync('/usr/bin/redis-cli  -h ' + ip + ' cluster meet ' + ipAddressInfo[0].ip + ' 6379')
                 console.log(result.toString());
             };
-            
+
         }
     }
     catch (err) {
